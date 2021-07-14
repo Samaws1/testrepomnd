@@ -35,6 +35,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: test1 stage
         run: echo test3f test1 stage
    
